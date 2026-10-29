@@ -490,6 +490,27 @@ section[id] {
   line-height: 1.4;
 }
 
+.projects-section {
+  padding-block: clamp(4rem, 7vw, 7rem);
+  border-top: 1px solid var(--line);
+  background: var(--teal-soft);
+}
+
+.project-copy {
+  max-width: 44rem;
+  margin-top: 2rem;
+  color: var(--ink-soft);
+  overflow-wrap: anywhere;
+}
+
+.project-copy p {
+  margin: 0 0 1.2rem;
+}
+
+.project-copy p:last-child {
+  margin-bottom: 0;
+}
+
 .ai-section {
   background: var(--paper-light);
 }
